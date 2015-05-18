@@ -1,0 +1,65 @@
+#wrapper{
+    font-family: Verdana;
+}
+img.cover{
+    height: 200px;
+    border-style: double;
+    border-radius: 10px;
+}
+div.singleBookContainer{
+    padding: 10px;
+    width: 250px;
+    height: 320px;
+    border: 1px solid brown;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    background-color: rgb(255, 250, 230);
+}
+#buttonContainer{
+    margin-left: 20px;
+    height: 500px;
+}
+span.title{
+    font-size: 18px;
+    display: block;
+    margin: 5px 0;
+    font-weight: bold;
+}
+span.author{
+    position: absolute;
+    text-align: left;
+    bottom: 25px;
+    left: 10px;
+    display: block;
+    font-size: 14px;
+}
+span.isbn{
+    position: absolute;
+    text-align: right;
+    bottom: 5px;
+    right: 5px;
+    font-size: 11px;
+    font-weight: bold;
+}
+#title, #cover{
+    margin-right: 20px;
+}
+#title {
+    width: 205px;
+}
+#title, #cover, #author, #isbn{
+    margin-bottom: 20px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+#selectedBook{
+    margin-bottom: 20px;
+}
